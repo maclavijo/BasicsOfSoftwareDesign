@@ -6,7 +6,7 @@ class Observer(ABC):
     def update(self):
         raise NotImplementedError
 
-#Create user from call Observer
+#Create user from class Observer
 class User(Observer):
     def __init__(self,username):
         self.username = username
